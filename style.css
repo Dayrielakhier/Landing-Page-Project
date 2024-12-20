@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto';
+}
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a, .content p {
+    text-decoration: none;    
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button, .cta {
+    background-color: #3882F6;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .sentence {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
