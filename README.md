@@ -1,0 +1,1 @@
+A project to create a landing page from scratch
