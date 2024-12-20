@@ -16,6 +16,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 24px
 }
 
 a, .content p {
@@ -33,7 +35,7 @@ button, .cta {
     background-color: #3882F6;
 }
 
-.info h1 {
+.title {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -48,4 +50,45 @@ button, .cta {
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+}
+
+.image img{
+    width: 1000px;
+    height: 500px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 48px;
+}
+
+.media {
+    display: flex;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 500px;
+    height: 800px;
+}
+
+.graph img{
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
 }
