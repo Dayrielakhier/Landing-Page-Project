@@ -29,6 +29,7 @@ a, .content p {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
 }
 
 button, .cta {
@@ -39,10 +40,14 @@ button, .cta {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    margin: 32px;
 }
 
 .quote {
     background-color: #E5E7EB;
+    padding: 108px 216px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote .sentence {
@@ -52,43 +57,90 @@ button, .cta {
     color: #1F2937;
 }
 
+.quote .author {
+    font-weight: 900;
+    text-align: end;
+}
+
 .image img{
-    width: 1000px;
-    height: 500px;
+    max-width: 1200px;
+    max-height: 600px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 48px;
+    padding: 32px 160px 160px;
 }
 
 .media {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 64px;
 }
 
 .content {
-    width: 500px;
-    height: 800px;
+    max-width: 500px;
 }
 
-.graph img{
-    width: 200px;
-    height: 200px;
+button {
+    color: #F9FAF8;
+    font-weight: 600;
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.graph {
+    max-width: 200px;
+}
+
+.graph img {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+}
+
+.graph img {
+    max-width: 200px;
 }
 
 .info {
     display: flex;
     justify-content: center;
+    gap: 52px;
+    margin-bottom: 80px;
 }
 
-.title {
+.title, .text {
     text-align: center;
+}
+
+.cta {
+    margin: 112px 224px;
+    padding: 54px 112px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta button {
+    border: 2px solid #F9FAF8
+}
+
+.footer {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
 }
